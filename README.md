@@ -43,6 +43,12 @@ Third-party authors should start with:
 CeleTech Arsenal - Shuttle Extension (Additional Module)/Docs/ThirdPartyRuntimeSdk.md
 ```
 
+For the conceptual shuttle architecture and SDK boundary model, read:
+
+```text
+CeleTech Arsenal - Shuttle Extension (Additional Module)/Docs/ShuttleArchitectureOverview.md
+```
+
 The SDK documents are included here so add-on authors can find the public
 runtime, UI, command, cargo, and launch integration boundaries without needing
 the main mod development workspace.

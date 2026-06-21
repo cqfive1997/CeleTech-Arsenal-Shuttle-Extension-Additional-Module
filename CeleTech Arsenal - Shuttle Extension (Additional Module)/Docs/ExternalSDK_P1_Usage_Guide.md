@@ -21,6 +21,7 @@ surfaces that sit outside this copied-data SDK:
 
 | Need | Read |
 | --- | --- |
+| Understand shuttle architecture and SDK boundaries | `Docs/ShuttleArchitectureOverview.md` |
 | Register an external runtime module, state, lifecycle hooks, power/mass hooks, commands, or panels | `Docs/ThirdPartyRuntimeSdk.md` |
 | Check UI host and panel rules | `Docs/ThirdPartyModuleUIBoundary.md` |
 | Check external command routing rules | `Docs/ThirdPartyCommandBoundary.md` |

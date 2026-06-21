@@ -39,6 +39,7 @@ Outside the current scope:
 
 | Need | Read |
 | --- | --- |
+| Shuttle architecture and SDK boundaries | `Docs/ShuttleArchitectureOverview.md` |
 | Safe copied read/cargo/launch SDK | `Docs/ExternalSDK_P1_Usage_Guide.md` |
 | UI host rules | `Docs/ThirdPartyModuleUIBoundary.md` |
 | Command routing rules | `Docs/ThirdPartyCommandBoundary.md` |
