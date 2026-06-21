@@ -138,22 +138,6 @@ Research:
 Bad Hygiene Lite support is intentionally separate from the full Dubs Bad Hygiene hygiene module.
 Treat Lite as a no-water, no-pipe, no-sewage-network integration.
 
-Hard constraints for Lite v1:
-
-- no clean-water tank
-- no water pipe bridge
-- no sewage pipe bridge
-- no septic tank or sewage storage
-- no liquid resource model
-- no `cleanWaterLiters` or `sewageLiters` runtime state
-- no tank-capacity command
-- no pipe-check command
-- no `DBHPipeBridge`
-- no `DBHLiquidUtility`
-- no `PlumbingNet`, `CompPipe`, `PullWater`, or `PushSewage`
-- no dynamic liquid mass contribution
-- no water, sewage, capacity, liters, pipe, or tank display in normal Lite UI
-
 Lite Service v1 only provides abstract hygiene service:
 
 - improve `Hygiene` through the Lite need or safe reflection
@@ -165,18 +149,6 @@ Lite Service v1 only provides abstract hygiene service:
 
 Power demand is generic module operation power, unrelated to water resources.
 Dynamic mass contribution stays zero in Lite v1; only the module Def's static mass applies.
-
-Current Lite v1 runtime:
-
-- detects `Dubwise.DubsBadHygiene.Lite`
-- hides itself when full `Dubwise.DubsBadHygiene` is active
-- resolves `Hygiene` and `Bladder`
-- detects optional `DBHThirst` for diagnostics only
-- reads public shuttle serviceable occupants
-- improves `Hygiene` with Lite `Need_Hygiene.clean(float)` when available
-- improves `Bladder` with bounded Lite `Need_Bladder.dump()` calls when available
-- falls back to conservative `CurLevel` increments if the Lite methods are unavailable
-- does not change `DBHThirst`
 
 ## Release Package
 
