@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <CT_Shuttle_Addon_DBH_HygieneSuite_Title>Hygiene module</CT_Shuttle_Addon_DBH_HygieneSuite_Title>
+  <CT_Shuttle_Addon_DBH_HygieneSuite_PlayerTitle>Shuttle hygiene module</CT_Shuttle_Addon_DBH_HygieneSuite_PlayerTitle>
+  <CT_Shuttle_Addon_DBH_HygieneSuite_PlayerSubtitle>Toilet and shower service for shuttle occupants.</CT_Shuttle_Addon_DBH_HygieneSuite_PlayerSubtitle>
+  <CT_Shuttle_Addon_DBH_Runtime_Label>Hygiene Module Integration</CT_Shuttle_Addon_DBH_Runtime_Label>
+  <CT_Shuttle_Addon_DBH_Runtime_Description>Provides Dubs Bad Hygiene toilet and shower integration for the shuttle hygiene module.</CT_Shuttle_Addon_DBH_Runtime_Description>
+  <CT_Shuttle_Addon_RuntimeDescription>Description</CT_Shuttle_Addon_RuntimeDescription>
+  <CT_Shuttle_Addon_RuntimeBinding>Runtime binding</CT_Shuttle_Addon_RuntimeBinding>
+  <CT_Shuttle_Addon_DBH_Loaded>Dubs Bad Hygiene</CT_Shuttle_Addon_DBH_Loaded>
+  <CT_Shuttle_Addon_ModuleStatus>Module status</CT_Shuttle_Addon_ModuleStatus>
+  <CT_Shuttle_Addon_ServiceStatus>Service</CT_Shuttle_Addon_ServiceStatus>
+  <CT_Shuttle_Addon_PipeStatus>Pipe</CT_Shuttle_Addon_PipeStatus>
+  <CT_Shuttle_Addon_WaterPipeStatus>Water pipe</CT_Shuttle_Addon_WaterPipeStatus>
+  <CT_Shuttle_Addon_SewagePipeStatus>Sewage pipe</CT_Shuttle_Addon_SewagePipeStatus>
+  <CT_Shuttle_Addon_PipeBridge>Pipe bridge</CT_Shuttle_Addon_PipeBridge>
+  <CT_Shuttle_Addon_PipeResult>Pipe result</CT_Shuttle_Addon_PipeResult>
+  <CT_Shuttle_Addon_LastAutoPipeCheckTick>Last auto pipe check tick</CT_Shuttle_Addon_LastAutoPipeCheckTick>
+  <CT_Shuttle_Addon_LastForcedPipeCheckTick>Last manual pipe check tick</CT_Shuttle_Addon_LastForcedPipeCheckTick>
+  <CT_Shuttle_Addon_NextPipeCheckTick>Next pipe check tick</CT_Shuttle_Addon_NextPipeCheckTick>
+  <CT_Shuttle_Addon_PipeWaterAdded>Water added from pipe</CT_Shuttle_Addon_PipeWaterAdded>
+  <CT_Shuttle_Addon_PipeSewageDrained>Sewage drained to pipe</CT_Shuttle_Addon_PipeSewageDrained>
+  <CT_Shuttle_Addon_Pipe_NoDrawableWater>Pipe is connected, but the DBH network has no drawable clean water.</CT_Shuttle_Addon_Pipe_NoDrawableWater>
+  <CT_Shuttle_Addon_Pipe_NoSewageFacility>Pipe is connected, but the DBH network has no available sewage facility.</CT_Shuttle_Addon_Pipe_NoSewageFacility>
+  <CT_Shuttle_Addon_RunPipeCheckNow>Run DBH pipe check</CT_Shuttle_Addon_RunPipeCheckNow>
+  <CT_Shuttle_Addon_RunPipeCheckNow_Tooltip>DevMode: request a DBH pipe check on the next runtime tick without servicing occupants.</CT_Shuttle_Addon_RunPipeCheckNow_Tooltip>
+  <CT_Shuttle_Addon_RunPipeCheckNow_Disabled>Runtime is not enabled.</CT_Shuttle_Addon_RunPipeCheckNow_Disabled>
+  <CT_Shuttle_Addon_CargoWaterRefill>Cargo water refill</CT_Shuttle_Addon_CargoWaterRefill>
+  <CT_Shuttle_Addon_CargoWaterConfigured>Cargo water configured</CT_Shuttle_Addon_CargoWaterConfigured>
+  <CT_Shuttle_Addon_CargoWaterDefLoaded>Cargo water def loaded</CT_Shuttle_Addon_CargoWaterDefLoaded>
+  <CT_Shuttle_Addon_CargoWaterConsumeApi>Cargo consume API</CT_Shuttle_Addon_CargoWaterConsumeApi>
+  <CT_Shuttle_Addon_CargoWaterMode>Cargo water mode</CT_Shuttle_Addon_CargoWaterMode>
+  <CT_Shuttle_Addon_LastCargoWaterRefill>Last cargo refill</CT_Shuttle_Addon_LastCargoWaterRefill>
+  <CT_Shuttle_Addon_CargoWaterAdded>Water added from cargo</CT_Shuttle_Addon_CargoWaterAdded>
+  <CT_Shuttle_Addon_CargoWaterItemsConsumed>Water items consumed</CT_Shuttle_Addon_CargoWaterItemsConsumed>
+  <CT_Shuttle_Addon_TankCapacity>Tank capacity</CT_Shuttle_Addon_TankCapacity>
+  <CT_Shuttle_Addon_TotalLiquidMass>Total liquid mass</CT_Shuttle_Addon_TotalLiquidMass>
+  <CT_Shuttle_Addon_DBH_PowerDemand>Power demand</CT_Shuttle_Addon_DBH_PowerDemand>
+  <CT_Shuttle_Addon_DBH_LiquidMass>Liquid mass</CT_Shuttle_Addon_DBH_LiquidMass>
+  <CT_Shuttle_Addon_DBH_ExternalNetwork>External network</CT_Shuttle_Addon_DBH_ExternalNetwork>
+  <CT_Shuttle_Addon_DBH_ExternalNetwork_NotConnected>Not connected</CT_Shuttle_Addon_DBH_ExternalNetwork_NotConnected>
+  <CT_Shuttle_Addon_DBH_ExternalNetwork_Connected>Connected</CT_Shuttle_Addon_DBH_ExternalNetwork_Connected>
+  <CT_Shuttle_Addon_DBH_ExternalNetwork_NoWater>Connected, no clean water available</CT_Shuttle_Addon_DBH_ExternalNetwork_NoWater>
+  <CT_Shuttle_Addon_DBH_ExternalNetwork_NoSewage>Connected, no sewage outlet available</CT_Shuttle_Addon_DBH_ExternalNetwork_NoSewage>
+  <CT_Shuttle_Addon_DBH_RecentPipeWater>Recent pipe refill</CT_Shuttle_Addon_DBH_RecentPipeWater>
+  <CT_Shuttle_Addon_DBH_RecentPipeSewage>Recent pipe drain</CT_Shuttle_Addon_DBH_RecentPipeSewage>
+  <CT_Shuttle_Addon_DBH_CleanWaterTank>Clean water tank</CT_Shuttle_Addon_DBH_CleanWaterTank>
+  <CT_Shuttle_Addon_DBH_SepticTank>Septic tank</CT_Shuttle_Addon_DBH_SepticTank>
+  <CT_Shuttle_Addon_DBH_TankCapacity>Tank capacity</CT_Shuttle_Addon_DBH_TankCapacity>
+  <CT_Shuttle_Addon_DBH_CapacityRange>Range {0}L - {1}L</CT_Shuttle_Addon_DBH_CapacityRange>
+  <CT_Shuttle_Addon_DBH_CapacityFineAdjust>Fine adjustment</CT_Shuttle_Addon_DBH_CapacityFineAdjust>
+  <CT_Shuttle_Addon_DBH_CapacityQuickSet>Presets</CT_Shuttle_Addon_DBH_CapacityQuickSet>
+  <CT_Shuttle_Addon_DBH_CapacityCannotBelowStored>Capacity cannot be lower than stored clean water or sewage.</CT_Shuttle_Addon_DBH_CapacityCannotBelowStored>
+  <CT_Shuttle_Addon_DBH_CapacityCommand_Delta>Capacity {0}</CT_Shuttle_Addon_DBH_CapacityCommand_Delta>
+  <CT_Shuttle_Addon_DBH_CapacityCommand_Set>Set {0}</CT_Shuttle_Addon_DBH_CapacityCommand_Set>
+  <CT_Shuttle_Addon_DBH_ConfigTitle>Tank settings</CT_Shuttle_Addon_DBH_ConfigTitle>
+  <CT_Shuttle_Addon_DBH_CleanWaterCapacity>Clean water capacity</CT_Shuttle_Addon_DBH_CleanWaterCapacity>
+  <CT_Shuttle_Addon_DBH_SepticCapacity>Septic tank capacity</CT_Shuttle_Addon_DBH_SepticCapacity>
+  <CT_Shuttle_Addon_DBH_SepticTreatmentRate>Treatment rate</CT_Shuttle_Addon_DBH_SepticTreatmentRate>
+  <CT_Shuttle_Addon_DBH_CurrentStored>stored {0}L</CT_Shuttle_Addon_DBH_CurrentStored>
+  <CT_Shuttle_Addon_DBH_ApplyCleanWaterCapacity>Confirm</CT_Shuttle_Addon_DBH_ApplyCleanWaterCapacity>
+  <CT_Shuttle_Addon_DBH_ApplySepticCapacity>Confirm</CT_Shuttle_Addon_DBH_ApplySepticCapacity>
+  <CT_Shuttle_Addon_DBH_ApplySepticTreatmentRate>Confirm</CT_Shuttle_Addon_DBH_ApplySepticTreatmentRate>
+  <CT_Shuttle_Addon_DBH_TreatmentRateCommand_Tooltip>Set the shuttle septic tank internal treatment rate in liters per day.</CT_Shuttle_Addon_DBH_TreatmentRateCommand_Tooltip>
+  <CT_Shuttle_Addon_DBH_TreatmentRateInvalid>Treatment rate is outside the configured range.</CT_Shuttle_Addon_DBH_TreatmentRateInvalid>
+  <CT_Shuttle_Addon_DBH_TreatmentPerDay>{0} L/day</CT_Shuttle_Addon_DBH_TreatmentPerDay>
+  <CT_Shuttle_Addon_DBH_TreatmentDisabled>No treatment</CT_Shuttle_Addon_DBH_TreatmentDisabled>
+  <CT_Shuttle_Addon_DBH_Status_Online>Online</CT_Shuttle_Addon_DBH_Status_Online>
+  <CT_Shuttle_Addon_DBH_Status_Blocked>Blocked</CT_Shuttle_Addon_DBH_Status_Blocked>
+  <CT_Shuttle_Addon_DBH_Status_Offline>Offline</CT_Shuttle_Addon_DBH_Status_Offline>
+  <CT_Shuttle_Addon_DBH_ServiceReady>Ready</CT_Shuttle_Addon_DBH_ServiceReady>
+  <CT_Shuttle_Addon_DBH_SepticNormal>Normal</CT_Shuttle_Addon_DBH_SepticNormal>
+  <CT_Shuttle_Addon_DBH_SepticNearlyFull>Near full</CT_Shuttle_Addon_DBH_SepticNearlyFull>
+  <CT_Shuttle_Addon_DBH_SepticFull>Full</CT_Shuttle_Addon_DBH_SepticFull>
+  <CT_Shuttle_Addon_DBH_InlineCommandUnavailable>Inline command execution is unavailable in this shuttle UI.</CT_Shuttle_Addon_DBH_InlineCommandUnavailable>
+  <CT_Shuttle_Addon_TankCapacityCommand_Tooltip>Adjust hygiene module tank capacity. Capacity cannot be set below stored water or sewage.</CT_Shuttle_Addon_TankCapacityCommand_Tooltip>
+  <CT_Shuttle_Addon_TankCapacityCommand_Disabled>Runtime is not enabled.</CT_Shuttle_Addon_TankCapacityCommand_Disabled>
+  <CT_Shuttle_Addon_CleanWater>Clean water</CT_Shuttle_Addon_CleanWater>
+  <CT_Shuttle_Addon_SepticTank>Septic tank</CT_Shuttle_Addon_SepticTank>
+  <CT_Shuttle_Addon_ServiceableOccupants>Serviceable occupants</CT_Shuttle_Addon_ServiceableOccupants>
+  <CT_Shuttle_Addon_ServicedPawns>Serviced pawns</CT_Shuttle_Addon_ServicedPawns>
+  <CT_Shuttle_Addon_ServiceActions>Service actions</CT_Shuttle_Addon_ServiceActions>
+  <CT_Shuttle_Addon_ShowerUses>Shower uses</CT_Shuttle_Addon_ShowerUses>
+  <CT_Shuttle_Addon_ToiletUses>Toilet uses</CT_Shuttle_Addon_ToiletUses>
+  <CT_Shuttle_Addon_DumpedSewage>Dumped sewage</CT_Shuttle_Addon_DumpedSewage>
+  <CT_Shuttle_Addon_DumpMethod>Dump method</CT_Shuttle_Addon_DumpMethod>
+  <CT_Shuttle_Addon_LastResult>Last result</CT_Shuttle_Addon_LastResult>
+  <CT_Shuttle_Addon_BlockedReason>Blocked reason</CT_Shuttle_Addon_BlockedReason>
+  <CT_Shuttle_Addon_Status_Loaded>Loaded</CT_Shuttle_Addon_Status_Loaded>
+  <CT_Shuttle_Addon_Status_Missing>Missing</CT_Shuttle_Addon_Status_Missing>
+  <CT_Shuttle_Addon_Status_Online>Online</CT_Shuttle_Addon_Status_Online>
+  <CT_Shuttle_Addon_Status_Offline>Offline</CT_Shuttle_Addon_Status_Offline>
+  <CT_Shuttle_Addon_Status_Active>Active</CT_Shuttle_Addon_Status_Active>
+  <CT_Shuttle_Addon_Status_Blocked>Blocked</CT_Shuttle_Addon_Status_Blocked>
+  <CT_Shuttle_Addon_Status_Connected>Connected</CT_Shuttle_Addon_Status_Connected>
+  <CT_Shuttle_Addon_Status_NotConnected>Not connected</CT_Shuttle_Addon_Status_NotConnected>
+  <CT_Shuttle_Addon_Status_None>None</CT_Shuttle_Addon_Status_None>
+  <CT_Shuttle_Addon_Status_Available>Available</CT_Shuttle_Addon_Status_Available>
+  <CT_Shuttle_Addon_Status_Unavailable>Unavailable</CT_Shuttle_Addon_Status_Unavailable>
+  <CT_Shuttle_Addon_DumpMethod_None>None</CT_Shuttle_Addon_DumpMethod_None>
+  <CT_Shuttle_Addon_DumpMethod_Pipe>Pipe</CT_Shuttle_Addon_DumpMethod_Pipe>
+  <CT_Shuttle_Addon_DumpMethod_Map>Map</CT_Shuttle_Addon_DumpMethod_Map>
+  <CT_Shuttle_Addon_DumpMethod_World>World</CT_Shuttle_Addon_DumpMethod_World>
+  <CT_Shuttle_Addon_DumpMethod_Failed>Failed</CT_Shuttle_Addon_DumpMethod_Failed>
+  <CT_Shuttle_Addon_NoResultYet>No result yet.</CT_Shuttle_Addon_NoResultYet>
+  <CT_Shuttle_Addon_DBH_Result_Initialized>Initialized.</CT_Shuttle_Addon_DBH_Result_Initialized>
+  <CT_Shuttle_Addon_DBH_Unknown>unknown</CT_Shuttle_Addon_DBH_Unknown>
+  <CT_Shuttle_Addon_DBH_CargoWater_InternalTankOnly>Disabled: internal tank only</CT_Shuttle_Addon_DBH_CargoWater_InternalTankOnly>
+  <CT_Shuttle_Addon_DBH_CargoWater_DisabledResult>Cargo water refill is disabled; shuttle water is stored in the internal hygiene tank.</CT_Shuttle_Addon_DBH_CargoWater_DisabledResult>
+  <CT_Shuttle_Addon_DBH_Block_DBHMissing>Dubs Bad Hygiene is not loaded.</CT_Shuttle_Addon_DBH_Block_DBHMissing>
+  <CT_Shuttle_Addon_DBH_Block_NeedDefsMissing>DBH need defs are missing.</CT_Shuttle_Addon_DBH_Block_NeedDefsMissing>
+  <CT_Shuttle_Addon_DBH_Block_NeedDefsMissingWithNames>DBH need defs are missing: {0}</CT_Shuttle_Addon_DBH_Block_NeedDefsMissingWithNames>
+  <CT_Shuttle_Addon_DBH_Block_InternalBusOffline>Internal shuttle bus is offline.</CT_Shuttle_Addon_DBH_Block_InternalBusOffline>
+  <CT_Shuttle_Addon_DBH_Block_BridgeNeedDefs>DBH bridge could not resolve need defs.</CT_Shuttle_Addon_DBH_Block_BridgeNeedDefs>
+  <CT_Shuttle_Addon_DBH_Block_BridgeNeedDefsWithNames>DBH bridge could not resolve need defs: {0}</CT_Shuttle_Addon_DBH_Block_BridgeNeedDefsWithNames>
+  <CT_Shuttle_Addon_DBH_Block_SepticFull>Septic tank full.</CT_Shuttle_Addon_DBH_Block_SepticFull>
+  <CT_Shuttle_Addon_DBH_Result_SepticFullCannotDump>Septic tank is full and cannot be dumped.</CT_Shuttle_Addon_DBH_Result_SepticFullCannotDump>
+  <CT_Shuttle_Addon_DBH_Block_OccupantApi>Waiting for public shuttle occupant API.</CT_Shuttle_Addon_DBH_Block_OccupantApi>
+  <CT_Shuttle_Addon_DBH_Block_NoServiceableOccupants>No serviceable shuttle occupants.</CT_Shuttle_Addon_DBH_Block_NoServiceableOccupants>
+  <CT_Shuttle_Addon_DBH_Block_ResourcesPreventService>No occupants could be serviced with current resources.</CT_Shuttle_Addon_DBH_Block_ResourcesPreventService>
+  <CT_Shuttle_Addon_DBH_Block_NoOccupantsNeedService>No occupants currently need hygiene or toilet service.</CT_Shuttle_Addon_DBH_Block_NoOccupantsNeedService>
+  <CT_Shuttle_Addon_DBH_Block_CleanWaterEmpty>Clean water tank is empty.</CT_Shuttle_Addon_DBH_Block_CleanWaterEmpty>
+  <CT_Shuttle_Addon_DBH_Block_CleanWaterInsufficient>Not enough clean water.</CT_Shuttle_Addon_DBH_Block_CleanWaterInsufficient>
+  <CT_Shuttle_Addon_DBH_Block_SepticCapacityInsufficient>Septic tank does not have enough capacity.</CT_Shuttle_Addon_DBH_Block_SepticCapacityInsufficient>
+  <CT_Shuttle_Addon_DBH_Result_ServicePerformed>Serviced {0} DBH need action(s) for {1} pawn(s).</CT_Shuttle_Addon_DBH_Result_ServicePerformed>
+  <CT_Shuttle_Addon_DBH_Result_NoServicePerformed>No service performed for {0} serviceable occupant(s).</CT_Shuttle_Addon_DBH_Result_NoServicePerformed>
+  <CT_Shuttle_Addon_DBH_Treatment_Disabled>Internal septic treatment is disabled.</CT_Shuttle_Addon_DBH_Treatment_Disabled>
+  <CT_Shuttle_Addon_DBH_Treatment_RateZero>Internal septic treatment rate is zero.</CT_Shuttle_Addon_DBH_Treatment_RateZero>
+  <CT_Shuttle_Addon_DBH_Treatment_NoSewage>No sewage to treat.</CT_Shuttle_Addon_DBH_Treatment_NoSewage>
+  <CT_Shuttle_Addon_DBH_Treatment_Treated>Treated {0} L sewage internally and recovered {1} L clean water.</CT_Shuttle_Addon_DBH_Treatment_Treated>
+  <CT_Shuttle_Addon_DBH_Result_ForcedPipeCheck>Forced DBH pipe check. Before clean water: {0}, after: {1}, water added: {2}. {3}</CT_Shuttle_Addon_DBH_Result_ForcedPipeCheck>
+  <CT_Shuttle_Addon_DBH_Result_DumpWorld>Dumped sewage outside abstractly.</CT_Shuttle_Addon_DBH_Result_DumpWorld>
+  <CT_Shuttle_Addon_DBH_Result_DumpMap>Dumped sewage to map near shuttle.</CT_Shuttle_Addon_DBH_Result_DumpMap>
+  <CT_Shuttle_Addon_DBH_Result_DumpMapAbstract>Abstract map sewage dump; DBH sewage def could not be resolved.</CT_Shuttle_Addon_DBH_Result_DumpMapAbstract>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_ContextMissing>Tank capacity command context is unavailable.</CT_Shuttle_Addon_DBH_ConfigCommand_ContextMissing>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_MissingValue>DBH configuration command is missing a numeric value.</CT_Shuttle_Addon_DBH_ConfigCommand_MissingValue>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterCapacitySet>Clean water capacity set to {0} L.</CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterCapacitySet>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_SepticCapacitySet>Septic tank capacity set to {0} L.</CT_Shuttle_Addon_DBH_ConfigCommand_SepticCapacitySet>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_TreatmentRateSet>Septic treatment rate set to {0} L/day.</CT_Shuttle_Addon_DBH_ConfigCommand_TreatmentRateSet>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_TankCapacitySet>Tank capacity set to {0} L.</CT_Shuttle_Addon_DBH_ConfigCommand_TankCapacitySet>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_TankCapacityBelowStored>Tank capacity cannot be lower than current stored water or sewage.</CT_Shuttle_Addon_DBH_ConfigCommand_TankCapacityBelowStored>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterContextMissing>Clean water capacity command context is unavailable.</CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterContextMissing>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterBelowStored>Clean water capacity cannot be lower than current stored clean water.</CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterBelowStored>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_SepticContextMissing>Septic tank capacity command context is unavailable.</CT_Shuttle_Addon_DBH_ConfigCommand_SepticContextMissing>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_SepticBelowStored>Septic tank capacity cannot be lower than current stored sewage.</CT_Shuttle_Addon_DBH_ConfigCommand_SepticBelowStored>
+  <CT_Shuttle_Addon_DBH_Pipe_RuntimeContextMissing>Runtime context is missing.</CT_Shuttle_Addon_DBH_Pipe_RuntimeContextMissing>
+  <CT_Shuttle_Addon_DBH_Pipe_IntegrationMissing>DBH integration def is missing.</CT_Shuttle_Addon_DBH_Pipe_IntegrationMissing>
+  <CT_Shuttle_Addon_DBH_Pipe_ServiceDisabled>DBH pipe servicing is disabled by integration def.</CT_Shuttle_Addon_DBH_Pipe_ServiceDisabled>
+  <CT_Shuttle_Addon_DBH_Pipe_NoExternalCells>No external cells are available for DBH pipe detection.</CT_Shuttle_Addon_DBH_Pipe_NoExternalCells>
+  <CT_Shuttle_Addon_DBH_Pipe_NoAdjacentConnection>No adjacent DBH pipe connection detected.</CT_Shuttle_Addon_DBH_Pipe_NoAdjacentConnection>
+  <CT_Shuttle_Addon_DBH_Pipe_RefilledWater>Refilled {0} L water from DBH pipe.</CT_Shuttle_Addon_DBH_Pipe_RefilledWater>
+  <CT_Shuttle_Addon_DBH_Pipe_CleanWaterAlreadyFull>DBH pipe connected; clean water tank is already full.</CT_Shuttle_Addon_DBH_Pipe_CleanWaterAlreadyFull>
+  <CT_Shuttle_Addon_DBH_Pipe_FillRateNotPositive>DBH pipe connected; pipeFillRatePerService is not positive.</CT_Shuttle_Addon_DBH_Pipe_FillRateNotPositive>
+  <CT_Shuttle_Addon_DBH_Pipe_DrainedSewage>Drained {0} L sewage to DBH pipe.</CT_Shuttle_Addon_DBH_Pipe_DrainedSewage>
+  <CT_Shuttle_Addon_DBH_Pipe_Connected>DBH pipe connected.</CT_Shuttle_Addon_DBH_Pipe_Connected>
+  <CT_Shuttle_Addon_DBH_Pipe_NoSewageConnection>No DBH sewage pipe connection is available.</CT_Shuttle_Addon_DBH_Pipe_NoSewageConnection>
+  <CT_Shuttle_Addon_DBH_Pipe_HostApiMissing>Waiting for public shuttle map/host API.</CT_Shuttle_Addon_DBH_Pipe_HostApiMissing>
+  <CT_Shuttle_Addon_DBH_Pipe_HostInfoMissing>Shuttle host info is unavailable.</CT_Shuttle_Addon_DBH_Pipe_HostInfoMissing>
+  <CT_Shuttle_Addon_DBH_Pipe_ShuttleNotSpawned>Shuttle is not spawned on a map.</CT_Shuttle_Addon_DBH_Pipe_ShuttleNotSpawned>
+  <CT_Shuttle_Addon_DBH_PipeCheck_DevModeOnly>DBH pipe check is DevMode-only.</CT_Shuttle_Addon_DBH_PipeCheck_DevModeOnly>
+  <CT_Shuttle_Addon_DBH_PipeCheck_ContextMissing>DBH pipe check command context is unavailable.</CT_Shuttle_Addon_DBH_PipeCheck_ContextMissing>
+  <CT_Shuttle_Addon_DBH_PipeCheck_RequestedWaiting>DBH pipe check requested; waiting for the next runtime tick.</CT_Shuttle_Addon_DBH_PipeCheck_RequestedWaiting>
+  <CT_Shuttle_Addon_DBH_PipeCheck_Requested>DBH pipe check requested.</CT_Shuttle_Addon_DBH_PipeCheck_Requested>
+  <CT_Shuttle_Addon_DBH_PipeMode_NotChecked>Not checked</CT_Shuttle_Addon_DBH_PipeMode_NotChecked>
+  <CT_Shuttle_Addon_DBH_PipeMode_DbhMissing>Unavailable: DBH missing</CT_Shuttle_Addon_DBH_PipeMode_DbhMissing>
+  <CT_Shuttle_Addon_DBH_PipeMode_InternalBusOffline>Unavailable: internal bus offline</CT_Shuttle_Addon_DBH_PipeMode_InternalBusOffline>
+  <CT_Shuttle_Addon_DBH_PipeMode_NeedDefsMissing>Unavailable: DBH need defs missing</CT_Shuttle_Addon_DBH_PipeMode_NeedDefsMissing>
+  <CT_Shuttle_Addon_DBH_PipeMode_NoContext>Unavailable: no context</CT_Shuttle_Addon_DBH_PipeMode_NoContext>
+  <CT_Shuttle_Addon_DBH_PipeMode_NoIntegration>Unavailable: no integration def</CT_Shuttle_Addon_DBH_PipeMode_NoIntegration>
+  <CT_Shuttle_Addon_DBH_PipeMode_Disabled>Disabled by integration def</CT_Shuttle_Addon_DBH_PipeMode_Disabled>
+  <CT_Shuttle_Addon_DBH_PipeMode_NotConnected>Not connected</CT_Shuttle_Addon_DBH_PipeMode_NotConnected>
+  <CT_Shuttle_Addon_DBH_PipeMode_UnavailableWithReason>Unavailable: {0}</CT_Shuttle_Addon_DBH_PipeMode_UnavailableWithReason>
+  <CT_Shuttle_Addon_DBH_PipeMode_DetectedBridgeUnavailable>Pipe detected, bridge unavailable</CT_Shuttle_Addon_DBH_PipeMode_DetectedBridgeUnavailable>
+  <CT_Shuttle_Addon_DBH_PipeMode_Connected>Connected: DBH pipe</CT_Shuttle_Addon_DBH_PipeMode_Connected>
+  <CT_Shuttle_Addon_DBH_PipeMode_NoHostApi>Unavailable: no shuttle host API</CT_Shuttle_Addon_DBH_PipeMode_NoHostApi>
+  <CT_Shuttle_Addon_DBH_PipeMode_NoHostInfo>Unavailable: no host info</CT_Shuttle_Addon_DBH_PipeMode_NoHostInfo>
+  <CT_Shuttle_Addon_DBH_PipeMode_ShuttleNotSpawned>Unavailable: shuttle not spawned</CT_Shuttle_Addon_DBH_PipeMode_ShuttleNotSpawned>
+  <CT_Shuttle_Addon_DBH_Binding_IntegrationMissing>DBH integration def is missing.</CT_Shuttle_Addon_DBH_Binding_IntegrationMissing>
+  <CT_Shuttle_Addon_DBH_Binding_ModuleMissing>Hygiene module def is missing.</CT_Shuttle_Addon_DBH_Binding_ModuleMissing>
+  <CT_Shuttle_Addon_DBH_Binding_ExtensionMissing>Hygiene module XML is missing its DBH module extension.</CT_Shuttle_Addon_DBH_Binding_ExtensionMissing>
+  <CT_Shuttle_Addon_DBH_Binding_DifferentIntegration>Hygiene module extension points at a different integration def.</CT_Shuttle_Addon_DBH_Binding_DifferentIntegration>
+  <CT_Shuttle_Addon_DBH_Binding_RuntimeBindingMissing>Hygiene module XML is missing runtime binding metadata.</CT_Shuttle_Addon_DBH_Binding_RuntimeBindingMissing>
+  <CT_Shuttle_Addon_DBH_Binding_RuntimeKeyMismatch>Hygiene module runtime key does not match the integration def.</CT_Shuttle_Addon_DBH_Binding_RuntimeKeyMismatch>
+  <CT_Shuttle_Addon_DBH_Binding_InstallTargetMismatch>Hygiene module install targeting does not match the living habitat segment.</CT_Shuttle_Addon_DBH_Binding_InstallTargetMismatch>
+  <CT_Shuttle_Addon_DBH_Binding_Valid>Hygiene module binding metadata is valid. Install the module in a Living Bay to create a runtime binding.</CT_Shuttle_Addon_DBH_Binding_Valid>
+  <CT_Shuttle_Addon_BHLite_Runtime_Label>Bad Hygiene Lite Integration</CT_Shuttle_Addon_BHLite_Runtime_Label>
+  <CT_Shuttle_Addon_BHLite_Runtime_Description>Provides Bad Hygiene Lite hygiene and bladder service for shuttle occupants.</CT_Shuttle_Addon_BHLite_Runtime_Description>
+  <CT_Shuttle_Addon_BHLite_PlayerTitle>Shuttle lite hygiene station</CT_Shuttle_Addon_BHLite_PlayerTitle>
+  <CT_Shuttle_Addon_BHLite_PlayerSubtitle>Abstract Bad Hygiene Lite hygiene and bladder service. No water tanks, pipes, sewage, or thirst handling.</CT_Shuttle_Addon_BHLite_PlayerSubtitle>
+  <CT_Shuttle_Addon_BHLite_Status>Lite status</CT_Shuttle_Addon_BHLite_Status>
+  <CT_Shuttle_Addon_BHLite_Needs>Lite needs</CT_Shuttle_Addon_BHLite_Needs>
+  <CT_Shuttle_Addon_BHLite_Status_HiddenByFull>Hidden because full Dubs Bad Hygiene is active</CT_Shuttle_Addon_BHLite_Status_HiddenByFull>
+  <CT_Shuttle_Addon_BHLite_HygieneServices>Hygiene services</CT_Shuttle_Addon_BHLite_HygieneServices>
+  <CT_Shuttle_Addon_BHLite_BladderServices>Toilet services</CT_Shuttle_Addon_BHLite_BladderServices>
+  <CT_Shuttle_Addon_BHLite_LastServiceTick>Last service tick</CT_Shuttle_Addon_BHLite_LastServiceTick>
+  <CT_Shuttle_Addon_BHLite_ServiceFailures>Service failures</CT_Shuttle_Addon_BHLite_ServiceFailures>
+</LanguageData>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <CT_Shuttle_Addon_DBH_HygieneSuite_Title>卫生模组</CT_Shuttle_Addon_DBH_HygieneSuite_Title>
+  <CT_Shuttle_Addon_DBH_HygieneSuite_PlayerTitle>穿梭机卫生模组</CT_Shuttle_Addon_DBH_HygieneSuite_PlayerTitle>
+  <CT_Shuttle_Addon_DBH_HygieneSuite_PlayerSubtitle>为穿梭机成员提供厕所与淋浴服务。</CT_Shuttle_Addon_DBH_HygieneSuite_PlayerSubtitle>
+  <CT_Shuttle_Addon_DBH_Runtime_Label>卫生模组联动</CT_Shuttle_Addon_DBH_Runtime_Label>
+  <CT_Shuttle_Addon_DBH_Runtime_Description>为穿梭机卫生模组提供 Dubs Bad Hygiene 的厕所与淋浴联动。</CT_Shuttle_Addon_DBH_Runtime_Description>
+  <CT_Shuttle_Addon_RuntimeDescription>说明</CT_Shuttle_Addon_RuntimeDescription>
+  <CT_Shuttle_Addon_RuntimeBinding>运行时绑定</CT_Shuttle_Addon_RuntimeBinding>
+  <CT_Shuttle_Addon_DBH_Loaded>Dubs Bad Hygiene</CT_Shuttle_Addon_DBH_Loaded>
+  <CT_Shuttle_Addon_ModuleStatus>模块状态</CT_Shuttle_Addon_ModuleStatus>
+  <CT_Shuttle_Addon_ServiceStatus>服务</CT_Shuttle_Addon_ServiceStatus>
+  <CT_Shuttle_Addon_PipeStatus>管线</CT_Shuttle_Addon_PipeStatus>
+  <CT_Shuttle_Addon_WaterPipeStatus>清水管</CT_Shuttle_Addon_WaterPipeStatus>
+  <CT_Shuttle_Addon_SewagePipeStatus>污水管</CT_Shuttle_Addon_SewagePipeStatus>
+  <CT_Shuttle_Addon_PipeBridge>管线桥接</CT_Shuttle_Addon_PipeBridge>
+  <CT_Shuttle_Addon_PipeResult>管线结果</CT_Shuttle_Addon_PipeResult>
+  <CT_Shuttle_Addon_LastAutoPipeCheckTick>上次自动管线检测 tick</CT_Shuttle_Addon_LastAutoPipeCheckTick>
+  <CT_Shuttle_Addon_LastForcedPipeCheckTick>上次手动管线检测 tick</CT_Shuttle_Addon_LastForcedPipeCheckTick>
+  <CT_Shuttle_Addon_NextPipeCheckTick>下次管线检测 tick</CT_Shuttle_Addon_NextPipeCheckTick>
+  <CT_Shuttle_Addon_PipeWaterAdded>从管线补充清水</CT_Shuttle_Addon_PipeWaterAdded>
+  <CT_Shuttle_Addon_PipeSewageDrained>排入管线的污水</CT_Shuttle_Addon_PipeSewageDrained>
+  <CT_Shuttle_Addon_Pipe_NoDrawableWater>管线已连接，但 DBH 管网没有可抽取清水。</CT_Shuttle_Addon_Pipe_NoDrawableWater>
+  <CT_Shuttle_Addon_Pipe_NoSewageFacility>管线已连接，但 DBH 管网没有可用排污设施。</CT_Shuttle_Addon_Pipe_NoSewageFacility>
+  <CT_Shuttle_Addon_RunPipeCheckNow>立即检测 DBH 管线</CT_Shuttle_Addon_RunPipeCheckNow>
+  <CT_Shuttle_Addon_RunPipeCheckNow_Tooltip>DevMode：请求下一次运行时 tick 检测 DBH 管线，不服务成员。</CT_Shuttle_Addon_RunPipeCheckNow_Tooltip>
+  <CT_Shuttle_Addon_RunPipeCheckNow_Disabled>运行时未启用。</CT_Shuttle_Addon_RunPipeCheckNow_Disabled>
+  <CT_Shuttle_Addon_CargoWaterRefill>货物补水</CT_Shuttle_Addon_CargoWaterRefill>
+  <CT_Shuttle_Addon_CargoWaterConfigured>货物补水已配置</CT_Shuttle_Addon_CargoWaterConfigured>
+  <CT_Shuttle_Addon_CargoWaterDefLoaded>货物水资源已加载</CT_Shuttle_Addon_CargoWaterDefLoaded>
+  <CT_Shuttle_Addon_CargoWaterConsumeApi>货物消耗 API</CT_Shuttle_Addon_CargoWaterConsumeApi>
+  <CT_Shuttle_Addon_CargoWaterMode>货物补水模式</CT_Shuttle_Addon_CargoWaterMode>
+  <CT_Shuttle_Addon_LastCargoWaterRefill>最近货物补水</CT_Shuttle_Addon_LastCargoWaterRefill>
+  <CT_Shuttle_Addon_CargoWaterAdded>从货物补充清水</CT_Shuttle_Addon_CargoWaterAdded>
+  <CT_Shuttle_Addon_CargoWaterItemsConsumed>消耗水资源数</CT_Shuttle_Addon_CargoWaterItemsConsumed>
+  <CT_Shuttle_Addon_TankCapacity>水箱容量</CT_Shuttle_Addon_TankCapacity>
+  <CT_Shuttle_Addon_TotalLiquidMass>液体总重量</CT_Shuttle_Addon_TotalLiquidMass>
+  <CT_Shuttle_Addon_DBH_PowerDemand>功率需求</CT_Shuttle_Addon_DBH_PowerDemand>
+  <CT_Shuttle_Addon_DBH_LiquidMass>液体重量</CT_Shuttle_Addon_DBH_LiquidMass>
+  <CT_Shuttle_Addon_DBH_ExternalNetwork>外部管网</CT_Shuttle_Addon_DBH_ExternalNetwork>
+  <CT_Shuttle_Addon_DBH_ExternalNetwork_NotConnected>未连接</CT_Shuttle_Addon_DBH_ExternalNetwork_NotConnected>
+  <CT_Shuttle_Addon_DBH_ExternalNetwork_Connected>已连接</CT_Shuttle_Addon_DBH_ExternalNetwork_Connected>
+  <CT_Shuttle_Addon_DBH_ExternalNetwork_NoWater>已连接，但外部管网没有可抽取清水</CT_Shuttle_Addon_DBH_ExternalNetwork_NoWater>
+  <CT_Shuttle_Addon_DBH_ExternalNetwork_NoSewage>已连接，但没有可用排污设施</CT_Shuttle_Addon_DBH_ExternalNetwork_NoSewage>
+  <CT_Shuttle_Addon_DBH_RecentPipeWater>最近管线补水</CT_Shuttle_Addon_DBH_RecentPipeWater>
+  <CT_Shuttle_Addon_DBH_RecentPipeSewage>最近管线排污</CT_Shuttle_Addon_DBH_RecentPipeSewage>
+  <CT_Shuttle_Addon_DBH_CleanWaterTank>清水箱</CT_Shuttle_Addon_DBH_CleanWaterTank>
+  <CT_Shuttle_Addon_DBH_SepticTank>化粪池</CT_Shuttle_Addon_DBH_SepticTank>
+  <CT_Shuttle_Addon_DBH_TankCapacity>水箱容量</CT_Shuttle_Addon_DBH_TankCapacity>
+  <CT_Shuttle_Addon_DBH_CapacityRange>范围 {0}L - {1}L</CT_Shuttle_Addon_DBH_CapacityRange>
+  <CT_Shuttle_Addon_DBH_CapacityFineAdjust>微调</CT_Shuttle_Addon_DBH_CapacityFineAdjust>
+  <CT_Shuttle_Addon_DBH_CapacityQuickSet>快速设定</CT_Shuttle_Addon_DBH_CapacityQuickSet>
+  <CT_Shuttle_Addon_DBH_CapacityCannotBelowStored>容量不能低于当前清水或污水存量。</CT_Shuttle_Addon_DBH_CapacityCannotBelowStored>
+  <CT_Shuttle_Addon_DBH_CapacityCommand_Delta>容量 {0}</CT_Shuttle_Addon_DBH_CapacityCommand_Delta>
+  <CT_Shuttle_Addon_DBH_CapacityCommand_Set>设为 {0}</CT_Shuttle_Addon_DBH_CapacityCommand_Set>
+  <CT_Shuttle_Addon_DBH_ConfigTitle>水箱设置</CT_Shuttle_Addon_DBH_ConfigTitle>
+  <CT_Shuttle_Addon_DBH_CleanWaterCapacity>清水容量</CT_Shuttle_Addon_DBH_CleanWaterCapacity>
+  <CT_Shuttle_Addon_DBH_SepticCapacity>化粪池容量</CT_Shuttle_Addon_DBH_SepticCapacity>
+  <CT_Shuttle_Addon_DBH_SepticTreatmentRate>处理速率</CT_Shuttle_Addon_DBH_SepticTreatmentRate>
+  <CT_Shuttle_Addon_DBH_CurrentStored>已存 {0}L</CT_Shuttle_Addon_DBH_CurrentStored>
+  <CT_Shuttle_Addon_DBH_ApplyCleanWaterCapacity>确认</CT_Shuttle_Addon_DBH_ApplyCleanWaterCapacity>
+  <CT_Shuttle_Addon_DBH_ApplySepticCapacity>确认</CT_Shuttle_Addon_DBH_ApplySepticCapacity>
+  <CT_Shuttle_Addon_DBH_ApplySepticTreatmentRate>确认</CT_Shuttle_Addon_DBH_ApplySepticTreatmentRate>
+  <CT_Shuttle_Addon_DBH_TreatmentRateCommand_Tooltip>设置穿梭机化粪池每日内部污水处理量。</CT_Shuttle_Addon_DBH_TreatmentRateCommand_Tooltip>
+  <CT_Shuttle_Addon_DBH_TreatmentRateInvalid>处理速率超出配置范围。</CT_Shuttle_Addon_DBH_TreatmentRateInvalid>
+  <CT_Shuttle_Addon_DBH_TreatmentPerDay>{0} L/天</CT_Shuttle_Addon_DBH_TreatmentPerDay>
+  <CT_Shuttle_Addon_DBH_TreatmentDisabled>未处理</CT_Shuttle_Addon_DBH_TreatmentDisabled>
+  <CT_Shuttle_Addon_DBH_Status_Online>运行中</CT_Shuttle_Addon_DBH_Status_Online>
+  <CT_Shuttle_Addon_DBH_Status_Blocked>受阻</CT_Shuttle_Addon_DBH_Status_Blocked>
+  <CT_Shuttle_Addon_DBH_Status_Offline>离线</CT_Shuttle_Addon_DBH_Status_Offline>
+  <CT_Shuttle_Addon_DBH_ServiceReady>待命</CT_Shuttle_Addon_DBH_ServiceReady>
+  <CT_Shuttle_Addon_DBH_SepticNormal>正常</CT_Shuttle_Addon_DBH_SepticNormal>
+  <CT_Shuttle_Addon_DBH_SepticNearlyFull>接近满载</CT_Shuttle_Addon_DBH_SepticNearlyFull>
+  <CT_Shuttle_Addon_DBH_SepticFull>已满</CT_Shuttle_Addon_DBH_SepticFull>
+  <CT_Shuttle_Addon_DBH_InlineCommandUnavailable>当前穿梭机界面不支持内嵌命令。</CT_Shuttle_Addon_DBH_InlineCommandUnavailable>
+  <CT_Shuttle_Addon_TankCapacityCommand_Tooltip>调整卫生模组水箱容量。容量不能低于当前储存的清水或污水。</CT_Shuttle_Addon_TankCapacityCommand_Tooltip>
+  <CT_Shuttle_Addon_TankCapacityCommand_Disabled>运行时未启用。</CT_Shuttle_Addon_TankCapacityCommand_Disabled>
+  <CT_Shuttle_Addon_CleanWater>清水</CT_Shuttle_Addon_CleanWater>
+  <CT_Shuttle_Addon_SepticTank>化粪池</CT_Shuttle_Addon_SepticTank>
+  <CT_Shuttle_Addon_ServiceableOccupants>可服务成员</CT_Shuttle_Addon_ServiceableOccupants>
+  <CT_Shuttle_Addon_ServicedPawns>已服务成员</CT_Shuttle_Addon_ServicedPawns>
+  <CT_Shuttle_Addon_ServiceActions>服务动作</CT_Shuttle_Addon_ServiceActions>
+  <CT_Shuttle_Addon_ShowerUses>淋浴次数</CT_Shuttle_Addon_ShowerUses>
+  <CT_Shuttle_Addon_ToiletUses>厕所次数</CT_Shuttle_Addon_ToiletUses>
+  <CT_Shuttle_Addon_DumpedSewage>已排污水</CT_Shuttle_Addon_DumpedSewage>
+  <CT_Shuttle_Addon_DumpMethod>排污方式</CT_Shuttle_Addon_DumpMethod>
+  <CT_Shuttle_Addon_LastResult>最近结果</CT_Shuttle_Addon_LastResult>
+  <CT_Shuttle_Addon_BlockedReason>阻塞原因</CT_Shuttle_Addon_BlockedReason>
+  <CT_Shuttle_Addon_Status_Loaded>已加载</CT_Shuttle_Addon_Status_Loaded>
+  <CT_Shuttle_Addon_Status_Missing>缺失</CT_Shuttle_Addon_Status_Missing>
+  <CT_Shuttle_Addon_Status_Online>在线</CT_Shuttle_Addon_Status_Online>
+  <CT_Shuttle_Addon_Status_Offline>离线</CT_Shuttle_Addon_Status_Offline>
+  <CT_Shuttle_Addon_Status_Active>活动</CT_Shuttle_Addon_Status_Active>
+  <CT_Shuttle_Addon_Status_Blocked>受阻</CT_Shuttle_Addon_Status_Blocked>
+  <CT_Shuttle_Addon_Status_Connected>已连接</CT_Shuttle_Addon_Status_Connected>
+  <CT_Shuttle_Addon_Status_NotConnected>未连接</CT_Shuttle_Addon_Status_NotConnected>
+  <CT_Shuttle_Addon_Status_None>无</CT_Shuttle_Addon_Status_None>
+  <CT_Shuttle_Addon_Status_Available>可用</CT_Shuttle_Addon_Status_Available>
+  <CT_Shuttle_Addon_Status_Unavailable>不可用</CT_Shuttle_Addon_Status_Unavailable>
+  <CT_Shuttle_Addon_DumpMethod_None>无</CT_Shuttle_Addon_DumpMethod_None>
+  <CT_Shuttle_Addon_DumpMethod_Pipe>管网</CT_Shuttle_Addon_DumpMethod_Pipe>
+  <CT_Shuttle_Addon_DumpMethod_Map>地图</CT_Shuttle_Addon_DumpMethod_Map>
+  <CT_Shuttle_Addon_DumpMethod_World>世界</CT_Shuttle_Addon_DumpMethod_World>
+  <CT_Shuttle_Addon_DumpMethod_Failed>失败</CT_Shuttle_Addon_DumpMethod_Failed>
+  <CT_Shuttle_Addon_NoResultYet>暂无结果</CT_Shuttle_Addon_NoResultYet>
+  <CT_Shuttle_Addon_DBH_Result_Initialized>已初始化。</CT_Shuttle_Addon_DBH_Result_Initialized>
+  <CT_Shuttle_Addon_DBH_Unknown>未知</CT_Shuttle_Addon_DBH_Unknown>
+  <CT_Shuttle_Addon_DBH_CargoWater_InternalTankOnly>已禁用：仅使用内部水箱</CT_Shuttle_Addon_DBH_CargoWater_InternalTankOnly>
+  <CT_Shuttle_Addon_DBH_CargoWater_DisabledResult>货舱补水已禁用；穿梭机用水储存在卫生模组的内部水箱中。</CT_Shuttle_Addon_DBH_CargoWater_DisabledResult>
+  <CT_Shuttle_Addon_DBH_Block_DBHMissing>未加载 Dubs Bad Hygiene。</CT_Shuttle_Addon_DBH_Block_DBHMissing>
+  <CT_Shuttle_Addon_DBH_Block_NeedDefsMissing>缺少 DBH 需求定义。</CT_Shuttle_Addon_DBH_Block_NeedDefsMissing>
+  <CT_Shuttle_Addon_DBH_Block_NeedDefsMissingWithNames>缺少 DBH 需求定义：{0}</CT_Shuttle_Addon_DBH_Block_NeedDefsMissingWithNames>
+  <CT_Shuttle_Addon_DBH_Block_InternalBusOffline>穿梭机内部总线未供电。</CT_Shuttle_Addon_DBH_Block_InternalBusOffline>
+  <CT_Shuttle_Addon_DBH_Block_BridgeNeedDefs>无法解析 DBH 需求定义。</CT_Shuttle_Addon_DBH_Block_BridgeNeedDefs>
+  <CT_Shuttle_Addon_DBH_Block_BridgeNeedDefsWithNames>无法解析 DBH 需求定义：{0}</CT_Shuttle_Addon_DBH_Block_BridgeNeedDefsWithNames>
+  <CT_Shuttle_Addon_DBH_Block_SepticFull>化粪池已满。</CT_Shuttle_Addon_DBH_Block_SepticFull>
+  <CT_Shuttle_Addon_DBH_Result_SepticFullCannotDump>化粪池已满，当前无法排空。</CT_Shuttle_Addon_DBH_Result_SepticFullCannotDump>
+  <CT_Shuttle_Addon_DBH_Block_OccupantApi>等待穿梭机乘员接口。</CT_Shuttle_Addon_DBH_Block_OccupantApi>
+  <CT_Shuttle_Addon_DBH_Block_NoServiceableOccupants>没有可服务的穿梭机成员。</CT_Shuttle_Addon_DBH_Block_NoServiceableOccupants>
+  <CT_Shuttle_Addon_DBH_Block_ResourcesPreventService>当前资源不足，无法为成员提供服务。</CT_Shuttle_Addon_DBH_Block_ResourcesPreventService>
+  <CT_Shuttle_Addon_DBH_Block_NoOccupantsNeedService>当前没有成员需要卫生或厕所服务。</CT_Shuttle_Addon_DBH_Block_NoOccupantsNeedService>
+  <CT_Shuttle_Addon_DBH_Block_CleanWaterEmpty>清水箱为空。</CT_Shuttle_Addon_DBH_Block_CleanWaterEmpty>
+  <CT_Shuttle_Addon_DBH_Block_CleanWaterInsufficient>清水不足。</CT_Shuttle_Addon_DBH_Block_CleanWaterInsufficient>
+  <CT_Shuttle_Addon_DBH_Block_SepticCapacityInsufficient>化粪池剩余容量不足。</CT_Shuttle_Addon_DBH_Block_SepticCapacityInsufficient>
+  <CT_Shuttle_Addon_DBH_Result_ServicePerformed>已为 {1} 名成员处理 {0} 次 DBH 需求。</CT_Shuttle_Addon_DBH_Result_ServicePerformed>
+  <CT_Shuttle_Addon_DBH_Result_NoServicePerformed>{0} 名可服务成员本次未处理需求。</CT_Shuttle_Addon_DBH_Result_NoServicePerformed>
+  <CT_Shuttle_Addon_DBH_Treatment_Disabled>内部污水处理已禁用。</CT_Shuttle_Addon_DBH_Treatment_Disabled>
+  <CT_Shuttle_Addon_DBH_Treatment_RateZero>内部污水处理速率为 0。</CT_Shuttle_Addon_DBH_Treatment_RateZero>
+  <CT_Shuttle_Addon_DBH_Treatment_NoSewage>没有需要处理的污水。</CT_Shuttle_Addon_DBH_Treatment_NoSewage>
+  <CT_Shuttle_Addon_DBH_Treatment_Treated>已在内部处理 {0} L 污水，回收 {1} L 清水。</CT_Shuttle_Addon_DBH_Treatment_Treated>
+  <CT_Shuttle_Addon_DBH_Result_ForcedPipeCheck>已手动检测 DBH 管线。检测前清水：{0}，检测后：{1}，补充清水：{2}。{3}</CT_Shuttle_Addon_DBH_Result_ForcedPipeCheck>
+  <CT_Shuttle_Addon_DBH_Result_DumpWorld>已在世界地图抽象排空污水。</CT_Shuttle_Addon_DBH_Result_DumpWorld>
+  <CT_Shuttle_Addon_DBH_Result_DumpMap>已将污水排到穿梭机附近地图格。</CT_Shuttle_Addon_DBH_Result_DumpMap>
+  <CT_Shuttle_Addon_DBH_Result_DumpMapAbstract>已抽象排污到地图；未能解析 DBH 污水定义。</CT_Shuttle_Addon_DBH_Result_DumpMapAbstract>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_ContextMissing>水箱设置命令上下文不可用。</CT_Shuttle_Addon_DBH_ConfigCommand_ContextMissing>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_MissingValue>DBH 设置命令缺少数值。</CT_Shuttle_Addon_DBH_ConfigCommand_MissingValue>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterCapacitySet>清水容量已设为 {0} L。</CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterCapacitySet>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_SepticCapacitySet>化粪池容量已设为 {0} L。</CT_Shuttle_Addon_DBH_ConfigCommand_SepticCapacitySet>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_TreatmentRateSet>化粪池处理速率已设为 {0} L/天。</CT_Shuttle_Addon_DBH_ConfigCommand_TreatmentRateSet>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_TankCapacitySet>水箱容量已设为 {0} L。</CT_Shuttle_Addon_DBH_ConfigCommand_TankCapacitySet>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_TankCapacityBelowStored>水箱容量不能低于当前储存的清水或污水。</CT_Shuttle_Addon_DBH_ConfigCommand_TankCapacityBelowStored>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterContextMissing>清水容量命令上下文不可用。</CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterContextMissing>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterBelowStored>清水容量不能低于当前储存的清水。</CT_Shuttle_Addon_DBH_ConfigCommand_CleanWaterBelowStored>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_SepticContextMissing>化粪池容量命令上下文不可用。</CT_Shuttle_Addon_DBH_ConfigCommand_SepticContextMissing>
+  <CT_Shuttle_Addon_DBH_ConfigCommand_SepticBelowStored>化粪池容量不能低于当前储存的污水。</CT_Shuttle_Addon_DBH_ConfigCommand_SepticBelowStored>
+  <CT_Shuttle_Addon_DBH_Pipe_RuntimeContextMissing>运行时上下文缺失。</CT_Shuttle_Addon_DBH_Pipe_RuntimeContextMissing>
+  <CT_Shuttle_Addon_DBH_Pipe_IntegrationMissing>缺少 DBH 联动定义。</CT_Shuttle_Addon_DBH_Pipe_IntegrationMissing>
+  <CT_Shuttle_Addon_DBH_Pipe_ServiceDisabled>DBH 管线服务已被联动定义禁用。</CT_Shuttle_Addon_DBH_Pipe_ServiceDisabled>
+  <CT_Shuttle_Addon_DBH_Pipe_NoExternalCells>没有可用于检测 DBH 管线的外部格子。</CT_Shuttle_Addon_DBH_Pipe_NoExternalCells>
+  <CT_Shuttle_Addon_DBH_Pipe_NoAdjacentConnection>未检测到相邻 DBH 管线连接。</CT_Shuttle_Addon_DBH_Pipe_NoAdjacentConnection>
+  <CT_Shuttle_Addon_DBH_Pipe_RefilledWater>已从 DBH 管线补充 {0} L 清水。</CT_Shuttle_Addon_DBH_Pipe_RefilledWater>
+  <CT_Shuttle_Addon_DBH_Pipe_CleanWaterAlreadyFull>DBH 管线已连接；清水箱已满。</CT_Shuttle_Addon_DBH_Pipe_CleanWaterAlreadyFull>
+  <CT_Shuttle_Addon_DBH_Pipe_FillRateNotPositive>DBH 管线已连接；pipeFillRatePerService 未设为正数。</CT_Shuttle_Addon_DBH_Pipe_FillRateNotPositive>
+  <CT_Shuttle_Addon_DBH_Pipe_DrainedSewage>已向 DBH 管线排出 {0} L 污水。</CT_Shuttle_Addon_DBH_Pipe_DrainedSewage>
+  <CT_Shuttle_Addon_DBH_Pipe_Connected>DBH 管线已连接。</CT_Shuttle_Addon_DBH_Pipe_Connected>
+  <CT_Shuttle_Addon_DBH_Pipe_NoSewageConnection>没有可用的 DBH 污水管线连接。</CT_Shuttle_Addon_DBH_Pipe_NoSewageConnection>
+  <CT_Shuttle_Addon_DBH_Pipe_HostApiMissing>等待穿梭机地图/宿主接口。</CT_Shuttle_Addon_DBH_Pipe_HostApiMissing>
+  <CT_Shuttle_Addon_DBH_Pipe_HostInfoMissing>穿梭机宿主信息不可用。</CT_Shuttle_Addon_DBH_Pipe_HostInfoMissing>
+  <CT_Shuttle_Addon_DBH_Pipe_ShuttleNotSpawned>穿梭机未部署在地图上。</CT_Shuttle_Addon_DBH_Pipe_ShuttleNotSpawned>
+  <CT_Shuttle_Addon_DBH_PipeCheck_DevModeOnly>DBH 管线检测仅限 DevMode 使用。</CT_Shuttle_Addon_DBH_PipeCheck_DevModeOnly>
+  <CT_Shuttle_Addon_DBH_PipeCheck_ContextMissing>DBH 管线检测命令上下文不可用。</CT_Shuttle_Addon_DBH_PipeCheck_ContextMissing>
+  <CT_Shuttle_Addon_DBH_PipeCheck_RequestedWaiting>已请求 DBH 管线检测，等待下一次运行时 tick。</CT_Shuttle_Addon_DBH_PipeCheck_RequestedWaiting>
+  <CT_Shuttle_Addon_DBH_PipeCheck_Requested>已请求 DBH 管线检测。</CT_Shuttle_Addon_DBH_PipeCheck_Requested>
+  <CT_Shuttle_Addon_DBH_PipeMode_NotChecked>未检测</CT_Shuttle_Addon_DBH_PipeMode_NotChecked>
+  <CT_Shuttle_Addon_DBH_PipeMode_DbhMissing>不可用：未加载 DBH</CT_Shuttle_Addon_DBH_PipeMode_DbhMissing>
+  <CT_Shuttle_Addon_DBH_PipeMode_InternalBusOffline>不可用：内部总线未供电</CT_Shuttle_Addon_DBH_PipeMode_InternalBusOffline>
+  <CT_Shuttle_Addon_DBH_PipeMode_NeedDefsMissing>不可用：缺少 DBH 需求定义</CT_Shuttle_Addon_DBH_PipeMode_NeedDefsMissing>
+  <CT_Shuttle_Addon_DBH_PipeMode_NoContext>不可用：缺少上下文</CT_Shuttle_Addon_DBH_PipeMode_NoContext>
+  <CT_Shuttle_Addon_DBH_PipeMode_NoIntegration>不可用：缺少联动定义</CT_Shuttle_Addon_DBH_PipeMode_NoIntegration>
+  <CT_Shuttle_Addon_DBH_PipeMode_Disabled>已由联动定义禁用</CT_Shuttle_Addon_DBH_PipeMode_Disabled>
+  <CT_Shuttle_Addon_DBH_PipeMode_NotConnected>未连接</CT_Shuttle_Addon_DBH_PipeMode_NotConnected>
+  <CT_Shuttle_Addon_DBH_PipeMode_UnavailableWithReason>不可用：{0}</CT_Shuttle_Addon_DBH_PipeMode_UnavailableWithReason>
+  <CT_Shuttle_Addon_DBH_PipeMode_DetectedBridgeUnavailable>已检测到管线，但桥接不可用</CT_Shuttle_Addon_DBH_PipeMode_DetectedBridgeUnavailable>
+  <CT_Shuttle_Addon_DBH_PipeMode_Connected>已连接 DBH 管线</CT_Shuttle_Addon_DBH_PipeMode_Connected>
+  <CT_Shuttle_Addon_DBH_PipeMode_NoHostApi>不可用：缺少穿梭机宿主接口</CT_Shuttle_Addon_DBH_PipeMode_NoHostApi>
+  <CT_Shuttle_Addon_DBH_PipeMode_NoHostInfo>不可用：缺少宿主信息</CT_Shuttle_Addon_DBH_PipeMode_NoHostInfo>
+  <CT_Shuttle_Addon_DBH_PipeMode_ShuttleNotSpawned>不可用：穿梭机未部署</CT_Shuttle_Addon_DBH_PipeMode_ShuttleNotSpawned>
+  <CT_Shuttle_Addon_DBH_Binding_IntegrationMissing>缺少 DBH 联动定义。</CT_Shuttle_Addon_DBH_Binding_IntegrationMissing>
+  <CT_Shuttle_Addon_DBH_Binding_ModuleMissing>缺少卫生模组定义。</CT_Shuttle_Addon_DBH_Binding_ModuleMissing>
+  <CT_Shuttle_Addon_DBH_Binding_ExtensionMissing>卫生模组 XML 缺少 DBH 模组扩展。</CT_Shuttle_Addon_DBH_Binding_ExtensionMissing>
+  <CT_Shuttle_Addon_DBH_Binding_DifferentIntegration>卫生模组扩展指向了不同的联动定义。</CT_Shuttle_Addon_DBH_Binding_DifferentIntegration>
+  <CT_Shuttle_Addon_DBH_Binding_RuntimeBindingMissing>卫生模组 XML 缺少运行时绑定信息。</CT_Shuttle_Addon_DBH_Binding_RuntimeBindingMissing>
+  <CT_Shuttle_Addon_DBH_Binding_RuntimeKeyMismatch>卫生模组运行时 key 与联动定义不一致。</CT_Shuttle_Addon_DBH_Binding_RuntimeKeyMismatch>
+  <CT_Shuttle_Addon_DBH_Binding_InstallTargetMismatch>卫生模组的安装目标与居住舱段不匹配。</CT_Shuttle_Addon_DBH_Binding_InstallTargetMismatch>
+  <CT_Shuttle_Addon_DBH_Binding_Valid>卫生模组绑定信息有效。将模组安装到居住舱即可创建运行时绑定。</CT_Shuttle_Addon_DBH_Binding_Valid>
+  <CT_Shuttle_Addon_BHLite_Runtime_Label>Bad Hygiene Lite 联动</CT_Shuttle_Addon_BHLite_Runtime_Label>
+  <CT_Shuttle_Addon_BHLite_Runtime_Description>为穿梭机成员提供 Bad Hygiene Lite 卫生与膀胱服务。</CT_Shuttle_Addon_BHLite_Runtime_Description>
+  <CT_Shuttle_Addon_BHLite_PlayerTitle>穿梭机轻量卫生站</CT_Shuttle_Addon_BHLite_PlayerTitle>
+  <CT_Shuttle_Addon_BHLite_PlayerSubtitle>为 Bad Hygiene Lite 提供抽象卫生与膀胱服务。不包含水箱、管线、污水或饮水处理。</CT_Shuttle_Addon_BHLite_PlayerSubtitle>
+  <CT_Shuttle_Addon_BHLite_Status>Lite 状态</CT_Shuttle_Addon_BHLite_Status>
+  <CT_Shuttle_Addon_BHLite_Needs>Lite 需求</CT_Shuttle_Addon_BHLite_Needs>
+  <CT_Shuttle_Addon_BHLite_Status_HiddenByFull>因完整版 Dubs Bad Hygiene 已启用而隐藏</CT_Shuttle_Addon_BHLite_Status_HiddenByFull>
+  <CT_Shuttle_Addon_BHLite_HygieneServices>卫生服务次数</CT_Shuttle_Addon_BHLite_HygieneServices>
+  <CT_Shuttle_Addon_BHLite_BladderServices>厕所服务次数</CT_Shuttle_Addon_BHLite_BladderServices>
+  <CT_Shuttle_Addon_BHLite_LastServiceTick>上次服务 tick</CT_Shuttle_Addon_BHLite_LastServiceTick>
+  <CT_Shuttle_Addon_BHLite_ServiceFailures>服务失败次数</CT_Shuttle_Addon_BHLite_ServiceFailures>
+</LanguageData>
