@@ -8,14 +8,6 @@
 - The integration is based on the public behavior and XML shape of the local
   Dubs Bad Hygiene package inspected during development.
 
-## Dependency Strategy
-
-Recommended first skeleton: soft dependency.
-
-Hard dependency is simpler and gives compile-time DBH types, but it would force DBH to be present for the whole add-on. This add-on stays soft-dependent so non-DBH modules and diagnostics can still load without `BadHygiene.dll`.
-
-Soft dependency keeps this add-on usable as a compatibility module pack. DBH-specific modules can load in diagnostic mode when DBH is missing or incompatible, and later integrations can follow the same pattern.
-
 ## Main Shuttle API Usage
 
 Use only public SDK namespaces from `CeleTech_Shuttle.dll`:
